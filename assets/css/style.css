@@ -119,6 +119,10 @@ footer a {
     text-align: center;
 }
 
+.intro {
+
+}
+
 .intro p{
     line-height: 1.7;
     color: #39a6b2;
@@ -137,9 +141,8 @@ footer a {
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
     display: inline-block;
+    border-bottom: 3px solid;
 }
 
 .primary-border {
