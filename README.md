@@ -12,3 +12,5 @@ https://geneskit.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Emily Thai
+
+### ©️2019 Run Buddy, Inc 
