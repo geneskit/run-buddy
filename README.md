@@ -1,6 +1,6 @@
 # Run Buddy Inc.
 
-## This repository is the walk-through project for HTML, CSS and Git
+## This repository is the walk-through project for HTML, CSS and Git [ Module 1 ] and Advanced CSS [ Module 2 ]
 
 ### Purpose
 A website that offers fitness training services.
