@@ -17,12 +17,29 @@
           <li><a href="#what-you-do">What You Do</a></li>
           <li><a href="#your-trainers">Your Trainers</a></li>
           <li><a href="#reach-out">Reach Out</a></li>
+          <li><a href="#service-plans">Service Plans</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- hero/jumbotron -->
     <section class="hero">
+      <div class="hero-cta">
+        <h2>Start Building Habits.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et
+          nesciunt, officiis eaque placeat incidunt veritatis dolorem porro
+          quasi? Assumenda quae nam laborum a corporis iure deleniti corrupti
+          unde adipisci! Reprehenderit sunt voluptatum vero quibusdam placeat
+          unde dolorum praesentium repellat earum, rerum odio nemo impedit sit
+          esse nobis enim. Recusandae aliquid obcaecati perspiciatis quam
+          reprehenderit assumenda dolorum qui sunt ad? Fugiat ipsum quam
+          aspernatur officia impedit delectus tempore recusandae facere odit
+          magnam quisquam eum, voluptate eveniet beatae, possimus laudantium!
+          Repellat ipsa facere incidunt eaque? Odio repellendus totam incidunt
+          esse quasi!
+        </p>
+      </div>
       <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>
@@ -122,56 +139,68 @@
     </section>
 
     <!-- "meet the trainers" section -->
-    <section id="your-trainers" class="trainers">
-      <h2 class="section-title primary-border">Meet The Trainers</h2>
-      <article class="trainer">
-        <img
-          src="./assets/images/trainer-1.jpg"
-          alt="Arron Stephens in his workout clothes, ready to pump iron"
-        />
-        <div class="trainer-bio text-left">
-          <h3>Arron Stephens</h3>
-          <h4>Speed / Strength</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-            neque animi quo cupiditate commodi saepe culpa sed itaque velit
-            maiores optio dolorem excepturi aperiam dolores, voluptatibus
-            suscipit amet quis repellat!
-          </p>
-        </div>
-      </article>
-      <article class="trainer">
-        <div class="trainer-bio text-right">
-          <h3>Joanna Gill</h3>
-          <h4>Endurance</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-            neque animi quo cupiditate commodi saepe culpa sed itaque velit
-            maiores optio dolorem excepturi aperiam dolores, voluptatibus
-            suscipit amet quis repellat!
-          </p>
-        </div>
-        <img
-          src="./assets/images/trainer-2.jpg"
-          alt="Joanna Gill cooling off after a workout"
-        />
-      </article>
-      <article class="trainer">
-        <img
-          src="./assets/images/trainer-3.jpg"
-          alt="Harry Smith wearing a headband and lifting comically small pink weights"
-        />
-        <div class="trainer-bio text-left">
-          <h3>Harry "the Headband" Smith</h3>
-          <h4>Strength</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-            neque animi quo cupiditate commodi saepe culpa sed itaque velit
-            maiores optio dolorem excepturi aperiam dolores, voluptatibus
-            suscipit amet quis repellat!
-          </p>
-        </div>
-      </article>
+    <section id="your-trainers">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">Meet The Trainers</h2>
+      </div>
+
+      <div class="trainers">
+        <article class="trainer">
+          <div class="trainer-img trainer-1">
+            <div>
+              <h3>Arron Stephens</h3>
+              <h4>Speed / Strength</h4>
+            </div>
+          </div>
+          <div class="trainer-bio">
+            <h3>Arron Stephens</h3>
+            <h4>Speed / Strength</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              neque animi quo cupiditate commodi saepe culpa sed itaque velit
+              maiores optio dolorem excepturi aperiam dolores, voluptatibus
+              suscipit amet quis repellat!
+            </p>
+          </div>
+        </article>
+        <article class="trainer">
+          <div class="trainer-img trainer-2">
+            <div>
+              <h3>Joanna Gill</h3>
+              <h4>Endurance</h4>
+            </div>
+          </div>
+          <div class="trainer-bio">
+            <h3>Joanna Gill</h3>
+            <h4>Endurance</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              neque animi quo cupiditate commodi saepe culpa sed itaque velit
+              maiores optio dolorem excepturi aperiam dolores, voluptatibus
+              suscipit amet quis repellat!
+            </p>
+          </div>
+        </article>
+
+        <article class="trainer">
+          <div class="trainer-img trainer-3">
+            <div>
+              <h3>Harry "The Headband" Smith</h3>
+              <h4>Strength</h4>
+            </div>
+          </div>
+          <div class="trainer-bio">
+            <h3>Harry "The Headband" Smith</h3>
+            <h4>Strength</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              neque animi quo cupiditate commodi saepe culpa sed itaque velit
+              maiores optio dolorem excepturi aperiam dolores, voluptatibus
+              suscipit amet quis repellat!
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- "service plans" chart -->
@@ -180,16 +209,20 @@
 
       <div class="service-grid-wrapper">
         <div class="service-grid-container">
-          <div class="service-grid-item grid-head basic"></div>
-          <div class="service-grid-item grid-head premium"></div>
+          <div class="service-grid-item grid-head basic">Basic</div>
+          <div class="service-grid-item grid-head premium">Premium</div>
 
           <div class="service-grid-item basic">Support offered between 9-5</div>
           <div class="service-grid-item premium">24/7 Plan Support</div>
           <div class="service-grid-item basic">Bi-Weekly Trainer Calls</div>
           <div class="service-grid-item premium">Weekly Trainer Calls</div>
           <div class="service-grid-item basic">N/A</div>
-          <div class="service-grid-item premium">Discounts at select running stores</div>
-          <div class="service-grid-item both">Subscription to Run Buddy's Health Magazine!</div>
+          <div class="service-grid-item premium">
+            Discounts at select running stores
+          </div>
+          <div class="service-grid-item both">
+            Subscription to Run Buddy's Health Magazine!
+          </div>
           <div class="service-grid-item basic">$10/month</div>
           <div class="service-grid-item premium">$25/month</div>
           <div class="service-grid-item cancel">Cancel at anytime!</div>
