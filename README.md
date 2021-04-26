@@ -1,16 +1,18 @@
-# run-buddy
+# Run Buddy Inc.
 
-## Purpose
+## This assignment is the walk-through project for HTML, CSS and Git
+
+### Purpose
 A website that offers fitness training services.
 
-## Built With
+### Built With
 * HTML
 * CSS
 
-## Website
+### Website
 https://geneskit.github.io/run-buddy/
 
-## Contribution
+### Contribution
 Made with ❤️ by Emily Thai
 
-### ©️2019 Run Buddy, Inc 
+#### ©️2019 Run Buddy, Inc 
